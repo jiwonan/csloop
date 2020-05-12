@@ -59,6 +59,12 @@ namespace csloop
             int[] array03_2 = new int[3] { 1, 2, 3 };
             // int[] array03_3 = int[] { 1,2,3};
             int[] array03_4 = { 1, 2, 3 };
+
+            // 실습문제 04
+            for(int i = 0; i < 20; i = i + 2)
+            {
+                Console.Write("출력");
+            }
         }
     }
 }
