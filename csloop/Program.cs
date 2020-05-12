@@ -53,6 +53,12 @@ namespace csloop
             {
                 Console.WriteLine(item);
             }
+
+            // 실습문제 03
+            int[] array03_1 = new int[20];
+            int[] array03_2 = new int[3] { 1, 2, 3 };
+            // int[] array03_3 = int[] { 1,2,3};
+            int[] array03_4 = { 1, 2, 3 };
         }
     }
 }
