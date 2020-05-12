@@ -45,6 +45,14 @@ namespace csloop
                 Thread.Sleep(100);
                 x++;
             }
+
+            // 실습문제 02
+            int[] array02 = new int[10];
+
+            foreach(var item in array02)
+            {
+                Console.WriteLine(item);
+            }
         }
     }
 }
