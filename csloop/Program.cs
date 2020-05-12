@@ -45,6 +45,28 @@ namespace csloop
                 Thread.Sleep(100);
                 x++;
             }*/
+            // bool state = true;
+            while (true)
+            {
+                ConsoleKeyInfo info = Console.ReadKey();
+                switch (info.Key)
+                {
+                    case ConsoleKey.UpArrow:
+                        Console.WriteLine("위로 이동");
+                        break;
+                    case ConsoleKey.RightArrow:
+                        Console.WriteLine("오른쪽으로 이동");
+                        break;
+                    case ConsoleKey.DownArrow:
+                        Console.WriteLine("아래로 이동");
+                        break;
+                    case ConsoleKey.LeftArrow:
+                        Console.WriteLine("왼쪽으로 이동");
+                        break;
+                    case ConsoleKey.Spacebar:
+                        break;
+                }
+            }
 
             // 실습문제 02
             int[] array02 = new int[10];
