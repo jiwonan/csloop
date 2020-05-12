@@ -29,7 +29,7 @@ namespace csloop
             {
                 Console.WriteLine(item);
             }
-            int x = 1;
+            /*int x = 1;
             while (x < 50)
             {
                 Console.Clear();
@@ -44,7 +44,7 @@ namespace csloop
 
                 Thread.Sleep(100);
                 x++;
-            }
+            }*/
 
             // 실습문제 02
             int[] array02 = new int[10];
@@ -64,6 +64,14 @@ namespace csloop
             for(int i = 0; i < 20; i = i + 2)
             {
                 Console.Write("출력");
+            }
+            Console.WriteLine();
+            // 실습문제 05
+            int _i = 0;
+            while (_i < 10)
+            {
+                Console.Write("출력");
+                _i++;
             }
         }
     }
